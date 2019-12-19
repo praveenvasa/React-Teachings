@@ -13,7 +13,7 @@ class App extends Component {
       <BrowserRouter>
       <Switch>
         <Route path='/' component={Home} exact/>
-        <Route path='/facebook/:id' component={Facebook}/> 
+        <Route path='/facebook' component={Facebook}/> 
         <Route path='/instagram' component={InstaGram} />
         <Route render={()=><h1>NOT FOUND PAGE</h1>} />
       </Switch>
